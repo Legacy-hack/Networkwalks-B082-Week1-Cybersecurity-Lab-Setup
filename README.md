@@ -1,15 +1,16 @@
 # 💻 Cybersecurity Lab Environment Setup# 
-**Student:** Francis Saviour Ahianyo
+Student: Francis Saviour Ahianyo
 ---
-**Course:** Cybersecurity
+Course: Cybersecurity
 ---
-**Lab:** Week 1 – Cybersecurity Lab Setup
+Lab:Week 1 – Cybersecurity Lab Setup
 ---
-**Platform:** Oracle VirtualBox
+Platform: Oracle VirtualBox
 ---
-**Guest OS:** Kali Linux
+Guest OS: Kali Linus
 ---
-**Instructor:** Waqas Karim(CCIE)
+Instructor: Waqas Karim(CCIE)
+---
 
 ---
 **The Purpose of this lab**
@@ -122,8 +123,8 @@ A dedicated virtual network allows the laboratory machines to communicate within
 
 ```text
 Network Type : NAT Network
-Network CIDR : ADD YOUR ACTUAL NETWORK
-DHCP         : ADD YOUR ACTUAL SETTING
+Network CIDR : 10.0.0.0/244
+DHCP         : Enabled
 ```
 
 ### Evidence
@@ -150,8 +151,8 @@ I downloaded/imported Kali Linux into Oracle VirtualBox and connected the virtua
 Operating System : Kali Linux
 Virtualization   : Oracle VirtualBox
 Network          : NAT Network
-RAM              : ADD YOUR ALLOCATION
-CPU              : ADD YOUR ALLOCATION
+RAM              : 2070
+CPU              : 2
 ```
 
 ### Evidence
@@ -175,25 +176,17 @@ I configured and verified the network interface inside Kali Linux.
 ### Network Information
 
 ```text
-IP Address : ADD YOUR ACTUAL IP ADDRESS
-Subnet     : ADD YOUR ACTUAL SUBNET
-Gateway    : ADD YOUR ACTUAL GATEWAY
-DNS        : ADD YOUR ACTUAL DNS
+IP Address : 10.0.0.2
+Subnet     : 24
+Gateway    : 10.0.0.1
+DNS        : 8.8.8.8
 ```
 
 ### Commands Used
-
-```bash
-ip addr
-```
-
-```bash
-ip route
-```
-
-```bash
-ping -c 4 google.com
-```
+1. ifconfig
+2. sudo ifconfig eth0 down
+3. sudo ifconfig eth0 up
+4. ping google.com
 
 ### Connectivity Test
 
@@ -239,29 +232,6 @@ Week1-Cybersecurity-Lab-Baseline
 
 ---
 
-# 🏗️ Lab Architecture
-
-```text
-                 HOST COMPUTER
-                 Windows 11
-                      │
-                      ▼
-             Oracle VirtualBox
-                      │
-                      ▼
-                NAT Network
-                      │
-          ┌───────────┴───────────┐
-          │                       │
-          ▼                       ▼
-     Kali Linux VM           Other Lab VMs
-          │
-          ▼
-   Cybersecurity Labs
-```
-
----
-
 # 🧪 Connectivity Verification
 
 The laboratory network was tested using standard Linux networking commands.
@@ -269,7 +239,7 @@ The laboratory network was tested using standard Linux networking commands.
 ### IP Address
 
 ```bash
-ip addr
+ifconfig
 ```
 
 ### Routing Table
@@ -281,7 +251,7 @@ ip route
 ### Connectivity Test
 
 ```bash
-ping -c 4 google.com
+ping 8.8.8.8
 ```
 
 ### Result
@@ -339,16 +309,6 @@ The following screenshots document my completed laboratory:
 
 ---
 
-# 👨‍🎓 Student
-
-**Name:** Francis Saviour Ahianyο
-
-**Course:** Cybersecurity
-
-**Lab:** Week 1 – Cybersecurity Lab Environment Setup
-
-**Repository:** My personal GitHub cybersecurity laboratory repository
-
 ---
 
 # ✅ Completion Status
@@ -373,8 +333,5 @@ The structure of this laboratory follows the Week 1 Cybersecurity Lab Setup exer
 The original reference repository is available on [GitHub](https://github.com/syedbilalahmed-cyber/networkwalks-B082-week1-Cybersecurity-lab-setup/blob/main/README.md?utm_source=chatgpt.com).
 
 ---
-
-**Prepared by:** Francis Saviour Ahianyo
-
 
 **Prepared by:** Francis Saviour Ahianyo
