@@ -78,8 +78,7 @@ Kali Linux virtual-machine files may be distributed in compressed formats. 7-Zip
 ### Evidence
 
 **Screenshot:** Add screenshot of 7-Zip installation here.
-
-`![7-Zip Installation](screenshots/01-7zip-installation.png)`
+![7-Zip Installation](https://github.com/Legacy-hack/Project-Screenshots/blob/314583752fe66bf08d1513d7e8d1390f0f959263/7ZIPS.png)
 
 ### Result
 
@@ -101,8 +100,7 @@ VirtualBox provides the virtualization platform required to create and run the K
 
 **Screenshot:** Add VirtualBox installation or main interface screenshot.
 
-`![VirtualBox](screenshots/02-virtualbox.png)`
-
+![VirtualBox]([https://github.com/Legacy-hack/Project-Screenshots/blob/314583752fe66bf08d1513d7e8d1390f0f959263/Kali%20Installation%20Screen.png)
 ### Result
 
 **Status:** ✅ Completed
@@ -131,7 +129,7 @@ DHCP         : Enabled
 
 **Screenshot:** Add your VirtualBox NAT Network configuration screenshot.
 
-`![NAT Network](screenshots/03-nat-network.png)`
+![NAT Network](https://github.com/Legacy-hack/Project-Screenshots/blob/3e9187bea9d395d507e1b3f74f85ccc002116ccd/virtual%20box%20Natnetwork%20configuration.png)
 
 ### Result
 
@@ -159,7 +157,7 @@ CPU              : 2
 
 **Screenshot:** Add screenshot showing the Kali Linux VM in VirtualBox.
 
-`![Kali Linux VM](screenshots/04-kali-vm.png)`
+`![Kali Linux VM](https://github.com/Legacy-hack/Project-Screenshots/blob/314583752fe66bf08d1513d7e8d1390f0f959263/Kali%20Linux%20Natnetwork%20configuration.png)
 
 ### Result
 
@@ -196,7 +194,7 @@ I used ping to verify that Kali Linux could communicate with the network.
 
 **Screenshot:** Add terminal screenshot showing the IP configuration and successful connectivity test.
 
-`![Kali Network Configuration](screenshots/05-kali-network.png)`
+![Kali Network Configuration](https://github.com/Legacy-hack/Project-Screenshots/blob/3e9187bea9d395d507e1b3f74f85ccc002116ccd/Kali%20Ip%20Address%20Configuration.png)
 
 ### Result
 
