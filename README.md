@@ -309,9 +309,5 @@ The following screenshots document my completed laboratory:
 ## 📚 Reference
 
 The structure of this laboratory follows the Week 1 Cybersecurity Lab Setup exercise provided by the class.
-
-The original reference repository is available on [GitHub](https://github.com/syedbilalahmed-cyber/networkwalks-B082-week1-Cybersecurity-lab-setup/blob/main/README.md?utm_source=chatgpt.com).
-
 ---
-
 **Prepared by:** Francis Saviour Ahianyo
