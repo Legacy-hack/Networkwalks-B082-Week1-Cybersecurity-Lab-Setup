@@ -238,8 +238,6 @@ ifconfig
 **Screenshot-Ip confirmation**
 --
 ![Kali ifconfig](https://github.com/Legacy-hack/Project-Screenshots/blob/2402b06a0159fd7ff78f80b8fbce96d9a0e78881/IP%20Confirmation.png)
-
-### Routing Table
 ---
 ### Connectivity Test
 
