@@ -100,7 +100,7 @@ VirtualBox provides the virtualization platform required to create and run the K
 
 **Screenshot:** Add VirtualBox installation or main interface screenshot.
 
-![VirtualBox]([https://github.com/Legacy-hack/Project-Screenshots/blob/314583752fe66bf08d1513d7e8d1390f0f959263/Kali%20Installation%20Screen.png)
+![VirtualBox](https://github.com/Legacy-hack/Project-Screenshots/blob/ea722c9b15118f6c62fe787e35eba2f85433c2db/Virtualbox%20interface.png)
 ### Result
 
 **Status:** ✅ Completed
@@ -157,7 +157,7 @@ CPU              : 2
 
 **Screenshot:** Add screenshot showing the Kali Linux VM in VirtualBox.
 
-`![Kali Linux VM](https://github.com/Legacy-hack/Project-Screenshots/blob/314583752fe66bf08d1513d7e8d1390f0f959263/Kali%20Linux%20Natnetwork%20configuration.png)
+`![Kali Linux VM](https://github.com/Legacy-hack/Project-Screenshots/blob/ea722c9b15118f6c62fe787e35eba2f85433c2db/Kali%20Linux%20Interface.png)
 
 ### Result
 
@@ -213,16 +213,12 @@ After completing the initial Kali Linux configuration, I created a VirtualBox sn
 The snapshot provides a restore point that can be used if the virtual machine becomes incorrectly configured during future cybersecurity exercises.
 
 ### Snapshot Name
-
-```text
-Week1-Cybersecurity-Lab-Baseline
-```
-
+---
 ### Evidence
 
 **Screenshot:** Add screenshot showing the VirtualBox snapshot.
 
-`![VirtualBox Snapshot](screenshots/06-snapshot.png)`
+![VirtualBox Snapshot](https://github.com/Legacy-hack/Project-Screenshots/blob/ea722c9b15118f6c62fe787e35eba2f85433c2db/Kali%20Linux%20snapshot.png)
 
 ### Result
 
@@ -239,18 +235,20 @@ The laboratory network was tested using standard Linux networking commands.
 ```bash
 ifconfig
 ```
+**Screenshot-Ip confirmation**
+--
+![Kali ifconfig](https://github.com/Legacy-hack/Project-Screenshots/blob/2402b06a0159fd7ff78f80b8fbce96d9a0e78881/IP%20Confirmation.png)
 
 ### Routing Table
-
-```bash
-ip route
-```
-
+---
 ### Connectivity Test
 
 ```bash
 ping 8.8.8.8
 ```
+**Screenshot**
+---
+![Ping Confirmation](https://github.com/Legacy-hack/Project-Screenshots/blob/2402b06a0159fd7ff78f80b8fbce96d9a0e78881/Ping%20Confirmatio.png)
 
 ### Result
 
@@ -259,7 +257,6 @@ IP configuration:     PASS
 Routing:              PASS
 Network connectivity: PASS
 ```
-
 > The results above should only be marked PASS after I have personally performed the tests and captured the evidence.
 
 ---
@@ -295,20 +292,7 @@ The laboratory provides an isolated environment where cybersecurity concepts can
 # 📸 Evidence
 
 The following screenshots document my completed laboratory:
-
-| No. | Evidence                   | File                       |
-| --- | -------------------------- | -------------------------- |
-| 1   | 7-Zip Installation         | `01-7zip-installation.png` |
-| 2   | VirtualBox                 | `02-virtualbox.png`        |
-| 3   | NAT Network                | `03-nat-network.png`       |
-| 4   | Kali Linux VM              | `04-kali-vm.png`           |
-| 5   | Kali Network Configuration | `05-kali-network.png`      |
-| 6   | VirtualBox Snapshot        | `06-snapshot.png`          |
-
 ---
-
----
-
 # ✅ Completion Status
 
 | Task                      | Status      |
